@@ -1,0 +1,1340 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgba(255, 255, 255, 0.932);
+}
+.header img {
+  padding-top: 20px;
+}
+
+.header li {
+  display: inline-block;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.header li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgba(107, 105, 105, 0.842);
+  margin-left: 10px;
+}
+
+.header ul li a::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  background-image: url("../images/lines1.jpg");
+  width: 15px;
+  height: 11px;
+}
+.header form {
+  display: inline-block;
+}
+.header h3 {
+  padding-top: 24px;
+}
+.header button {
+  background-color: rgb(89, 0, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border: 1px solid rgb(89, 0, 255);
+  transition: 0.3s;
+  clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+  display: inline-block;
+  text-transform: uppercase;
+  margin-left: 16px;
+}
+
+.header button:hover {
+  background-color: transparent;
+  color: rgb(89, 0, 255);
+}
+
+.hero-section {
+  padding-top: 70px;
+  background-image: url("../images/hero.jpg");
+  background-size: cover;
+  padding-bottom: 420px;
+  background-position: center;
+}
+
+.hero-section h1 {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+
+.hero-section p {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.hero-section .hero-inner {
+  height: 100%;
+  padding-top: 50px;
+  position: relative;
+}
+
+.hero-section .hero-inner .hero-content {
+  position: absolute;
+  left: 5px;
+}
+
+.hero-section .hero-inner .hero-content::before {
+  content: "";
+  width: 80px;
+  height: 3px;
+  background-color: white;
+  position: absolute;
+}
+
+.dis-btn {
+  background-color: rgb(89, 0, 255);
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 12px;
+  text-decoration: none;
+  text-transform: uppercase;
+  clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+}
+
+.dis-btn:hover {
+  background-color: transparent;
+  color: rgb(89, 0, 255);
+}
+
+.osnove-section {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.osnove-section h3 {
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: blueviolet;
+  text-transform: uppercase;
+}
+
+.osnove-section h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.osnove-section p {
+  padding-bottom: 30px;
+  color: rgb(116, 111, 111);
+}
+
+.box-section {
+  margin-bottom: 100px;
+  margin-top: 50px;
+}
+
+.box-section .box {
+  background-color: rgb(39, 36, 36);
+  color: white;
+  text-align: center;
+  padding-bottom: 15px;
+  -webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.box-section .box:hover {
+  background: linear-gradient(0.25turn, #17023d, #5a0892, #2058a7);
+  cursor: pointer;
+  margin-top: -20px;
+  -webkit-box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.box-section .box h3 {
+  text-transform: uppercase;
+}
+
+.box-section .box p {
+  padding-bottom: 10px;
+  padding-top: 5px;
+  color: rgb(196, 187, 187);
+}
+
+.info-and-plans {
+  background-color: transparent;
+  padding: 8px;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+  border: solid 1px white;
+}
+
+.info-and-plans:hover {
+  background-color: transparent;
+  color: rgb(89, 0, 255);
+}
+
+.metoda-zastite-section {
+  background-image: url("../images/background1.jpg");
+  text-align: center;
+  color: white;
+  background-size: cover;
+}
+
+.metoda-zastite-section h5 {
+  padding-bottom: 10px;
+  color: blueviolet;
+  padding-top: 100px;
+}
+
+.metoda-zastite-section h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.metoda-zastite-section p {
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: white;
+}
+
+.metoda-zastite-section img {
+  position: relative;
+  bottom: -30px;
+}
+
+.team-section {
+  margin-top: 175px;
+  margin-bottom: 100px;
+}
+
+.team-section h2 {
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.team-section .team-line-img {
+  position: relative;
+}
+
+.team-section img {
+  height: 10px;
+  width: 1000px;
+  position: absolute;
+  top: 22px;
+}
+
+.team-section .width-20 {
+  width: 20%;
+}
+
+.team-section h3{
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+.team-section p {
+  color: rgb(196, 189, 189);
+  text-shadow: 2px 2px black;
+}
+
+.team-section .team1 {
+  background-image: url('../images/team1.jpg');
+  height: 370px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  transition: 0.3s;
+  background-size: cover;
+  background-position: center;
+}
+
+.team-section .team-inner {
+  background-color: rgba(0,0,0,0.5);
+  height: 100%;
+  padding: 25px;
+  position: relative;
+}
+
+.team-section .team-inner .team-content {
+  position: absolute;
+  bottom: 5px;
+}
+
+.team-section .team-inner .team-content::before {
+  content: "";
+  width: 3px;
+  height: 55px;
+  background-color: white;
+  position: absolute;
+  left: -15px;
+  top: 5px;
+}
+
+.team-section .team2 {
+  background-image: url('../images/team2.jpg');
+  height: 370px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  background-size: cover;
+  background-position: center;
+}
+
+.team-section .team3 {
+  background-image: url('../images/team3.jpg');
+  height: 370px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  background-size: cover;
+  background-position: center;
+}
+
+.team-section .team4 {
+  background-image: url('../images/team4.jpg');
+  height: 370px;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  box-shadow: 0 0 5px 0 rgba(0,0,0,1);
+  background-size: cover;
+  background-position: center;
+}
+.about-us-section {
+  background-image: url("../images/aboutus.jpg");
+  padding-bottom: 80px;
+  padding-top: 40px;
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-section h5 {
+  color: white;
+  padding-top: 40px;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.692);
+  padding-bottom: 10px;
+}
+
+.about-us-section h5::before {
+  content: "";
+  display: inline-block;
+  background-color: rgb(53, 53, 122);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+
+.about-us-section h2 {
+  color: white;
+  padding-bottom: 10px;
+  font-size: 44px;
+}
+
+.about-us-section p {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.about-us-section .p1 {
+  color: white;
+}
+
+span {
+  content: "\2713";
+  color: white;
+  display: inline-block;
+}
+
+.training-seminar-section {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.training-seminar-section h4 {
+  color: blueviolet;
+  padding-top: 50px;
+}
+
+.training-seminar-section .h22 {
+  font-weight: bold;
+  font-size: 40px;
+  padding-top: 16px;
+}
+
+.training-seminar-section .p22 {
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+.training-seminar-section .training-inner {
+  background-image: url("../images/training2.jpg");
+  height: 550px;
+}
+
+.training-seminar-section .training-inner .training-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  padding: 50px;
+  color: white;
+}
+
+.training-seminar-section .training-inner .training-content h4 {
+  color: blueviolet;
+  padding-top: 70px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+
+.training-seminar-section .training-inner .training-content p {
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.training-seminar-section .training-inner .training-content h2 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  font-size: 60px;
+}
+
+.training-seminar-section .training-inner .training-content .p2 {
+  padding-top: 5px;
+}
+
+.training-seminar-section .training-inner .training-content .conference-date {
+  background-color: blueviolet;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 2px;
+  clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+}
+
+.training-seminar-section .training-inner .training-content .countdown {
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 42px;
+  border: 1px solid white;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.training-seminar-section .training-inner .training-content .learn-more-btn {
+  background-color: rgb(89, 0, 255);
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  transition: 0.3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+}
+
+.training-seminar-section
+  .training-inner
+  .training-content
+  .learn-more-btn:hover {
+  background-color: transparent;
+  color: rgb(89, 0, 255);
+}
+
+.form-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-image: url("../images/form.jpg");
+  background-size: cover;
+  color: white;
+}
+
+.form-section br {
+  display: none;
+}
+
+.form-section form {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.692);
+  padding: 50px;
+}
+
+.form-section form textarea,
+.form-section form input,
+.form-section form button {
+  width: 100%;
+  border: 0;
+  outline: none;
+  margin-bottom: 15px;
+  height: 40px;
+}
+
+.form-section form textarea {
+  height: 80px;
+}
+
+.form-section .button {
+  position: relative;
+}
+
+.form-section form button {
+  background-color: blueviolet;
+  clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  width: 310px;
+}
+
+.form-section form label {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.692);
+  padding-bottom: 5px;
+}
+
+.form-section .h22 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.form-section .p22 {
+  text-align: center;
+  color: white;
+}
+
+.form-section .content-container {
+  margin-top: 50px;
+}
+
+.form-section .contact-details p a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-section .contact-details p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.form-section .contact-details .p2222 {
+  padding-top: 5px;
+}
+
+.form-section .contact-details .h44 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.692);
+  padding-bottom: 10px;
+}
+
+.form-section .contact-details .h44::before {
+  content: "";
+  display: inline-block;
+  background-color: rgb(53, 53, 122);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+
+.form-section .contact-details .h444 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.692);
+  padding-bottom: 10px;
+}
+
+.form-section .contact-details .h444::before {
+  content: "";
+  display: inline-block;
+  background-color: white;
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+
+.form-section .contact-details h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 34px;
+}
+
+.form-section .contact-details .p222 {
+  padding-bottom: 16px;
+}
+
+.pricing-plans-section {
+  text-align: center;
+}
+
+.pricing-plans-section .pricing-plan:hover {
+  background: linear-gradient(0.25turn, #17023d, #5a0892, #2058a7);
+  cursor: pointer;
+  -webkit-box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0 10px 10px 1px rgba(0, 0, 0, 0.75);
+  transform: scale(1.075);
+}
+
+.pricing-plans-section h5 {
+  padding-bottom: 10px;
+  color: blueviolet;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+.pricing-plans-section h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.pricing-plans-section p {
+  padding-bottom: 10px;
+  color: rgb(155, 150, 150);
+}
+
+.pricing-plans-section .pricing-plan h4 {
+  text-transform: uppercase;
+  padding-top: 20px;
+}
+
+.pricing-plans-section .pricing-plan img {
+  height: 100px;
+  width: 100px;
+}
+
+.pricing-plans-section .price span {
+  color: white;
+}
+
+.pricing-plans-section .pricing-plan {
+  background-color: rgba(42, 43, 44);
+  color: white;
+  padding: 25px;
+  transition: 0.3s;
+  margin-top: 50px;
+}
+
+.pricing-plans-section .pricing-plan .dis-btn1 {
+  background-color: rgb(89, 0, 255);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 58px;
+  padding-left: 58px;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+  margin-top: 20px;
+}
+
+.dis-btn1:hover {
+  background-color: transparent;
+  color: rgb(89, 0, 255);
+}
+
+.pricing-plans-section .pricing-plan a {
+  display: inline-block;
+}
+
+.pricing-plans-section .pricing-plan ul {
+  list-style: none;
+  margin-right: 22px;
+}
+
+.pricing-plans-section .pricing-plan ul li {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted rgba(126, 121, 121, 0.692);
+  float: left;
+}
+
+.pricing-plans-section .pricing-plan .price {
+  position: relative;
+  border-top: 3px dotted white;
+  border-bottom: 3px dotted white;
+  margin-bottom: 28px;
+}
+
+.pricing-plans-section .pricing-plan .price .main-number {
+  font-size: 60px;
+  font-style: italic;
+}
+
+.pricing-plans-section .pricing-plan .price .sec-number {
+  position: relative;
+  top: -30px;
+}
+
+.pricing-plans-section .pricing-plan .price .month {
+  position: relative;
+  left: -25px;
+}
+
+.focus-section {
+  background-image: url("../images/background2.jpg");
+  background-size: cover;
+  margin-top: 100px;
+  height: 500px;
+}
+
+.focus-section .content-section {
+  text-align: center;
+  padding-top: 120px;
+  background-size: cover;
+}
+
+.focus-section .content-section h2 {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 15px;
+  text-transform: uppercase;
+}
+
+.focus-section .content-section h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+.focus-section .content-section .book-trial-btn {
+  background-color: transparent;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border: 1px solid white;
+  color: white;
+  transition: 0.3s;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.focus-section .content-section .book-trial-btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+footer h4 {
+  border-bottom: 1px dotted gray;
+  text-transform: uppercase;
+}
+
+footer h4::before {
+  content: "";
+  display: inline-block;
+  background-color: rgb(53, 53, 122);
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: -3px;
+}
+
+footer ul {
+  list-style: none;
+  padding-top: 10px;
+}
+
+footer ul li {
+  padding-top: 5px;
+}
+
+footer ul li a {
+  color: gray;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+footer ul li a::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  background-image: url("../images/lines1.jpg");
+  width: 15px;
+  height: 11px;
+}
+
+footer a i {
+  font-size: 28px;
+}
+
+footer .icons a {
+  margin-right: 5px;
+  color: gray;
+}
+
+footer .icons .icons2 {
+  padding-top: 20px;
+}
+
+footer .icons .icons3 {
+  padding-top: 10px;
+}
+
+.after-footer {
+  background-color: black;
+  color: white;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
+.after-footer .section2 {
+  margin-left: 100px;
+}
+
+.after-footer ul {
+  list-style: none;
+  margin: 0;
+}
+
+.after-footer ul li {
+  display: inline-block;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+.after-footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.after-footer ul li a::before {
+  content: "";
+  display: inline-block;
+  margin-right: 5px;
+  background-image: url("../images/lines2.jpg");
+  width: 15px;
+  height: 11px;
+}
+
+/* Media Queris - Resposnive */
+
+@media screen and (max-width: 1440px) {
+  .header li a {
+    font-size: 12px;
+  }
+
+  .team-section img {
+    height: 10px;
+    width: 860px;
+    position: absolute;
+    top: 22px;
+}
+
+.team-section h2 {
+    font-size: 26px;
+}
+
+  .form-section form button {
+    width: 260px;
+  }
+
+  .metoda-zastite-section img {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .header li a {
+    font-size: 9px;
+  }
+
+  .header button {
+    font-size: 10px;
+  }
+
+  .hero-section {
+    padding-bottom: 600px;
+  }
+
+  .box-section .box img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .team-section img {
+    height: 10px;
+    width: 740px;
+    position: absolute;
+    top: 22px;
+}
+
+.team-section h2 {
+    font-size: 22px;
+}
+
+  .form-section form button {
+    width: 200px;
+  }
+
+  .pricing-plans-section .pricing-plan {
+    height: 820px;
+  }
+
+  footer h4::before {
+    content: "";
+    display: inline-block;
+    background-color: rgb(53, 53, 122);
+    width: 0px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-top: 10px;
+  }
+
+  footer ul li {
+    padding-top: 5px;
+  }
+
+  footer ul li a {
+    font-size: 10px;
+  }
+
+  footer ul li a::before {
+    content: "";
+    display: inline-block;
+    margin-right: 5px;
+    background-image: url("../images/lines1.jpg");
+    width: 12px;
+    height: 10px;
+  }
+
+  footer a i {
+    font-size: 22px;
+  }
+
+  footer .icons .icons2 {
+    padding-top: 16px;
+    margin-left: 7px;
+  }
+
+  footer .icons .icons3 {
+    padding-top: 8px;
+    margin-left: 7px;
+  }
+
+  footer h4 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  footer .icons a {
+    margin-left: 3px;
+  }
+
+  .after-footer ul li {
+    margin-left: 12px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .header li a {
+    font-size: 7px;
+  }
+ 
+  .header img {
+    padding-top: 22px;
+  }
+
+  .box-section .box img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .team-section h2 {
+    font-size: 17px;
+}
+
+.team-section img {
+    height: 10px;
+    width: 550px;
+    position: absolute;
+    top: 8px;
+}
+
+  .metoda-zastite-section img {
+    width: 580px;
+  }
+
+  .training-seminar-section {
+    padding-bottom: 120px;
+  }
+
+  .training-seminar-section .training-inner {
+    background-image: url("../images/training2.jpg");
+    height: 600px;
+  }
+
+  .form-section form button {
+    width: 136px;
+  }
+
+  .pricing-plans-section .pricing-plan {
+    height: 960px;
+    width: 170px;
+  }
+
+  .pricing-plans-section .pricing-plan .price .main-number {
+    font-size: 54px;
+    font-style: italic;
+  }
+
+  .pricing-plans-section .pricing-plan .section3 {
+    padding-top: 24px;
+  }
+
+  .pricing-plans-section .pricing-plan .dis-btn1 {
+    background-color: rgb(89, 0, 255);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 22px;
+    padding-left: 22px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    clip-path: polygon(100% 0, 100% 83%, 93% 100%, 0 100%, 0 0);
+    margin-top: 20px;
+  }
+
+  footer h4::before {
+    content: "";
+    display: inline-block;
+    background-color: rgb(53, 53, 122);
+    width: 0px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-top: 10px;
+  }
+
+  footer ul li {
+    padding-top: 5px;
+  }
+
+  footer ul li a {
+    font-size: 10px;
+  }
+
+  footer a i {
+    font-size: 18px;
+  }
+  footer h4 {
+    font-size: 14px;
+    margin-left: 0px;
+  }
+
+  footer img {
+    width: 100px;
+  }
+
+  .after-footer .section2 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .header ul {
+    display: none;
+  }
+
+  .header .fa {
+    display: none;
+  }
+
+  .header img {
+    display: none;
+  }
+
+  .hero-section {
+    padding-top: 0px;
+    background-image: url("../images/heroslika3.jpg");
+    background-size: cover;
+    padding-bottom: 460px;
+    background-position: center;
+  }
+
+  .hero-section h1 {
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+
+  .hero-section p {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+  }
+
+  .box-section .box {
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+
+  .metoda-zastite-section img {
+    width: 500px;
+  }
+
+  .team-section {
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.team-section h2 {
+    font-size: 30px; 
+    margin-left: 240px;
+    display: inline-block;
+    text-align: center;
+}
+
+.team-section .team-line-img {
+    display: none;
+}
+
+.team-section .team1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.team-section .team2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.team-section .team3 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.team-section .team4 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+  .training-seminar-section .training-inner {
+    background-image: url("../images/training2.jpg");
+    height: 740px;
+  }
+
+  .form-section form {
+    margin-top: 30px;
+    height: 550px;
+  }
+
+  .form-section form button {
+    width: 136px;
+  }
+
+  .form-section br {
+    display: block;
+  }
+
+  .pricing-plans-section .pricing-plan {
+    width: 520px;
+    height: 600px;
+  }
+
+  .pricing-plans-section .pricing-plan ul li {
+    margin-left: 10px;
+  }
+
+  footer h4::before {
+    content: "";
+    display: inline-block;
+    background-color: rgb(53, 53, 122);
+    width: 0px;
+    height: 10px;
+    margin-right: 10px;
+    position: relative;
+    top: -3px;
+  }
+
+  footer .footerlogo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  footer img {
+    height: 36px;
+  }
+
+  footer ul {
+    list-style: none;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  footer ul li {
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  footer ul li a {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  footer a i {
+    font-size: 24px;
+  }
+  footer .icons {
+    text-align: center;
+  }
+
+  footer h4 {
+    font-size: 24px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .after-footer p {
+    display: inline-block;
+  }
+  .after-footer .section1 {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .metoda-zastite-section img {
+    width: 300px;
+  }
+  .team-section h2 {
+    margin-left: 66px;
+}
+  .pricing-plans-section .pricing-plan {
+    width: 100%;
+    height: 760px;
+  }
+
+  .focus-section {
+    height: 600px;
+  }
+
+  .training-seminar-section {
+    padding-bottom: 120px;
+    padding-top: 80px;
+  }
+
+  .training-seminar-section .training-inner {
+    background-image: url("../images/training2.jpg");
+    height: 800px;
+  }
+
+  .training-seminar-section h4 {
+    color: blueviolet;
+    padding-top: 20px;
+  }
+
+  .training-seminar-section .h22 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 14px;
+  }
+
+  .training-seminar-section .p22 {
+    padding-bottom: 20px;
+  }
+
+  .training-seminar-section .training-inner .training-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    padding: 40px;
+    color: white;
+  }
+
+  .training-seminar-section .training-inner .training-content h4 {
+    color: blueviolet;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+
+  .training-seminar-section .training-inner .training-content p {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .training-seminar-section .training-inner .training-content h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .pricing-plans-section .pricing-plan ul li {
+    float: none;
+  }
+  .pricing-plans-section .pricing-plan .dis-btn1 {
+    margin-left: 40px;
+  }
+
+  footer img {
+    display: none;
+  }
+  .after-footer ul li {
+    font-size: 12px;
+  }
+
+  .after-footer .section1 {
+    text-align: center;
+  }
+}
